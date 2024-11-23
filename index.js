@@ -8,8 +8,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://nirmalamanikandan21:qmboa722pcB7YhFj@cluster0.vnz2k.mongodb.net/');
-
+mongoose.connect('mongodb+srv://nirmalamanikandan21:Mezyqf1VAgtU7RCO@cluster0.0swp3.mongodb.net/');
+console.log("connected")
 
 app.post('/register', (req, res)=>{
     // To post / insert data into database qmboa722pcB7YhFj
